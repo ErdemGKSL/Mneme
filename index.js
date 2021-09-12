@@ -1,6 +1,6 @@
 /**
  * @param {String} type "encode" or "decode"
- * @param {String} text 
+ * @param {String} text any text that can be readable
  * @returns 
  */
 function Mneme(type, text) {
@@ -81,3 +81,4 @@ function Mneme(type, text) {
 		return arr.join(" ");
 	}
 }
+module.exports = Mneme;
