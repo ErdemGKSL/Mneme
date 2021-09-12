@@ -1,3 +1,4 @@
+const morse = require('morse')
 /**
  * @param {String} type "encode" or "decode"
  * @param {String} text any text that can be readable

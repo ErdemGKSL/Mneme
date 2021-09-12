@@ -10,7 +10,7 @@ Then:
 
 ```
 
-let Mneme = require('mneme)
+let Mneme = require('mneme')
 
 
 let encoded = Mneme('encode','hello world');
