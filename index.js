@@ -1,3 +1,8 @@
+/**
+ * @param {String} type "encode" or "decode"
+ * @param {String} text 
+ * @returns 
+ */
 function Mneme(type, text) {
 	if (typeof text !== "string" || typeof type !== "string")
 		throw new Error("Uknown Argument Type");
