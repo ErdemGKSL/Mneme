@@ -8,7 +8,8 @@ function Mneme(type, text) {
 	if (typeof text !== "string" || typeof type !== "string")
 		throw new Error("Uknown Argument Type");
     if(text.length < 1) throw new Error("Empty Text Argument")
-    if(!(text === "encode" || type === "decode")) throw new Error("Unknown Mneme Type");
+    if (!(type === "encode" || type === "decode"))
+		throw new Error("Unknown Mneme Type");
 	if (type === "encode") {
 		var encodedlist = morse.encode(
 			text
