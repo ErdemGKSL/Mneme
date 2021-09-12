@@ -4,13 +4,13 @@ An encoder or decoder for Erdem Gokel's morse based numeric alphabet.
 
 # Installation
 
-`npm i mneme`
+`npm i @erdemgoksel/mneme`
 
 Then:
 
 ```
 
-let Mneme = require('mneme')
+let Mneme = require('@erdemgoksel/mneme')
 
 
 let encoded = Mneme('encode','hello world');
